@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Buscaminas</string>
+    <string name="instrucciones">Instrucciones</string>
+    <string name="nuevo_juego">Nuevo Juego</string>
+    <string name="configuracion">Configuración</string>
+    <string name="selecciona_personaje">Selecciona personaje</string>
+    <string name="principiante">Principiante</string>
+    <string name="amateur">Amateur</string>
+    <string name="avanzado">Avanzado</string>
+</resources>

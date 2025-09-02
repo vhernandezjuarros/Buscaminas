@@ -1,0 +1,46 @@
+# ==================================================
+# Configuración de Git para Android/Java/NetBeans
+# ==================================================
+
+# Normalizar saltos de línea y forzar UTF-8 en archivos de texto
+* text=auto eol=lf
+
+# Archivos de código y texto común
+*.java  text diff=java working-tree-encoding=UTF-8
+*.xml   text diff=xml working-tree-encoding=UTF-8
+*.md    text diff=markdown working-tree-encoding=UTF-8
+*.txt   text working-tree-encoding=UTF-8
+*.csv   text working-tree-encoding=UTF-8
+*.html  text diff=html working-tree-encoding=UTF-8
+*.css   text working-tree-encoding=UTF-8
+*.js    text working-tree-encoding=UTF-8
+*.yml   text working-tree-encoding=UTF-8
+
+# Scripts
+*.sh    text eol=lf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Archivos binarios
+*.jar   binary
+*.war   binary
+*.ear   binary
+*.zip   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.ico   binary
+*.exe   binary
+*.dll   binary
+*.class binary
+
+# NetBeans / IDE
+nbproject/private/** binary
+*.iml binary
+
+# Archivos de diagramas o apuntes
+*.drawio binary
+*.vsdx binary

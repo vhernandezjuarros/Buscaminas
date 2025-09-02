@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Menú principal de la aplicación Buscaminas
+    Contiene opciones para instrucciones, iniciar un nuevo juego,
+    configuración y selección de personaje
+-->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Opción para mostrar las instrucciones del juego -->
+    <item
+        android:id="@+id/mnInstrucc"
+        android:title="@string/instrucciones" />
+
+    <!-- Opción para iniciar un nuevo juego -->
+    <item
+        android:id="@+id/nmNuevoJuego"
+        android:title="@string/nuevo_juego" />
+
+    <!-- Opción para mostrar la configuración del juego -->
+    <item
+        android:id="@+id/mnConfig"
+        android:title="@string/configuracion" />
+
+    <!-- Opción para seleccionar un personaje
+     Se mostrará como icono en la Toolbar si hay espacio -->
+    <item
+        android:id="@+id/mnSelecc"
+        android:icon="@drawable/baseline_catching_pokemon_24"
+        android:title="@string/selecciona_personaje"
+        app:showAsAction="ifRoom"/>
+</menu>
